@@ -160,6 +160,8 @@ GCDS examples:
 - gcds-table
 - gcds-grid
 - gcds-notice
+- gcds-alert
+- gcds-signature
 - gcds-pagination
 - gcds-error-message
 - gcds-icon

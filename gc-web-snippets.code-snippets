@@ -234,6 +234,24 @@
     "description": "GCDS notice with essential attributes (notice-role, notice-title, notice-title-tag) and default slot message",
     "scope": "html"
   },
+  "GCDS - Alert": {
+    "prefix": "gcds-alert",
+    "body": [
+      "<gcds-alert heading=\"${1:Alert heading}\" alert-role=\"${2|info,success,warning,danger|}\" container=\"${3|full, xs, sm, md, lg, xl|}\" hide-close-btn=\"${4|false, true|}\" hide-role-icon=\"${5|false, true|}\" is-fixed=\"${6|false, true|}\">",
+      "\t<p>${7:Message.}</p>",
+      "</gcds-alert>"
+    ],
+    "description": "GCDS alert with heading, alert-role, container, hide-close-btn, hide-role-icon, is-fixed (defaults prefilled) and default slot message",
+    "scope": "html"
+  },
+  "GCDS - Signature": {
+    "prefix": "gcds-signature",
+    "body": [
+      "<gcds-signature type=\"${1|signature,wordmark|}\" variant=\"${2|colour,white|}\" has-link=\"${3|false,true|}\" lang=\"${4|en,fr|}\"></gcds-signature>"
+    ],
+    "description": "GCDS signature with type (signature, wordmark), variant (colour, white), has-link (default false) and lang attributes",
+    "scope": "html"
+  },
   "GCDS - Pagination": {
     "prefix": "gcds-pagination",
     "body": [
